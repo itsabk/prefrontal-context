@@ -7,14 +7,14 @@
 <p align="center"><strong>Project context that stays with the repository.</strong></p>
 
 <p align="center">
-  <code>v0.4.0</code>&nbsp; <code>106 lines</code>&nbsp; <code>5 files</code>&nbsp; <code>no install</code>&nbsp; <code>no account</code>&nbsp; <code>no AI provider</code>&nbsp; <code>MIT</code>
+  <code>v0.4.0</code>&nbsp; <code>106&nbsp;lines</code>&nbsp; <code>5&nbsp;files</code>&nbsp; <code>no&nbsp;install</code>&nbsp; <code>no&nbsp;account</code>&nbsp; <code>no&nbsp;AI&nbsp;provider</code>&nbsp; <code>MIT</code>
 </p>
 
 <p align="center">
   <a href="https://prefrontal.dev">prefrontal.dev</a> &nbsp;·&nbsp;
-  <a href="PROMPT.md">setup prompt</a> &nbsp;·&nbsp;
-  <a href="#the-five-files">the five files</a> &nbsp;·&nbsp;
-  <a href="#install-by-hand">install by hand</a>
+  <a href="PROMPT.md">setup&nbsp;prompt</a> &nbsp;·&nbsp;
+  <a href="#the-five-files">the&nbsp;five&nbsp;files</a> &nbsp;·&nbsp;
+  <a href="#install-by-hand">install&nbsp;by&nbsp;hand</a>
 </p>
 
 ---
