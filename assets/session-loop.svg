@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 440" width="620" height="440" role="img" aria-labelledby="session-loop-title session-loop-desc">
+  <title id="session-loop-title">One session, and the next</title>
+  <desc id="session-loop-desc">Four numbered steps in a loop. A session starts, reads the files, does the work, and writes what changed. An arrow from the last step back to the first is labelled: the next session. A footer line reads: five files in your repo, git keeps the history.</desc>
+
+  <rect x="0.5" y="0.5" width="619" height="439" rx="6.4" fill="#0a0908" stroke="rgba(232,228,216,0.13)" />
+
+  <!-- Four steps, read left to right, then down, then back. -->
+  <g fill="rgba(240,236,224,0.018)" stroke="rgba(232,228,216,0.13)">
+    <rect x="30" y="78" width="256" height="92" rx="6.4" />
+    <rect x="334" y="78" width="256" height="92" rx="6.4" />
+    <rect x="334" y="250" width="256" height="92" rx="6.4" />
+    <rect x="30" y="250" width="256" height="92" rx="6.4" />
+  </g>
+
+  <!-- Loop connectors. -->
+  <g stroke="rgba(232,228,216,0.22)" stroke-width="1">
+    <line x1="286" y1="124" x2="326" y2="124" />
+    <line x1="462" y1="170" x2="462" y2="242" />
+    <line x1="334" y1="296" x2="294" y2="296" />
+    <line x1="158" y1="250" x2="158" y2="178" />
+  </g>
+  <g fill="#bab2a1">
+    <polygon points="326,119 326,129 334,124" />
+    <polygon points="457,242 467,242 462,250" />
+    <polygon points="294,291 294,301 286,296" />
+    <polygon points="153,178 163,178 158,170" />
+  </g>
+
+  <!-- Mono voice: step numbers and the direction notes. -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="20">
+    <text x="30" y="50" fill="#d4cec0" font-size="24">one session, and the next</text>
+    <text x="50" y="112" fill="#bab2a1">01</text>
+    <text x="354" y="112" fill="#bab2a1">02</text>
+    <text x="354" y="284" fill="#bab2a1">03</text>
+    <text x="50" y="284" fill="#bab2a1">04</text>
+    <text x="172" y="216" fill="#bab2a1">the next session</text>
+    <text x="30" y="404" fill="#bab2a1">five files in your repo &#183; git keeps the history</text>
+  </g>
+
+  <!-- Product voice: the four steps. -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" fill="#f0ece0">
+    <text x="50" y="148">A session starts</text>
+    <text x="354" y="148">Reads the files</text>
+    <text x="354" y="320">Does the work</text>
+    <text x="50" y="320">Writes what changed</text>
+  </g>
+</svg>

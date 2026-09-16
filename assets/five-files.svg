@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 628" width="620" height="628" role="img" aria-labelledby="five-files-title five-files-desc">
+  <title id="five-files-title">The five files, and the one job each owns</title>
+  <desc id="five-files-desc">Five rows, one per file. Each row names the file, what it owns, and who maintains it. AGENTS.md and MEMORY.md are marked in amber as partly the owner's to write; WORK.md, DECISIONS.md and OPEN.md are marked agents. A footer line reads: read at session start, git keeps the history.</desc>
+
+  <!-- Ground: painted, so the figure reads the same on GitHub's light and dark themes. -->
+  <rect x="0.5" y="0.5" width="619" height="627" rx="6.4" fill="#0a0908" stroke="rgba(232,228,216,0.13)" />
+
+  <!-- Rows. The two owner-touched files take the amber wash and the strong rule. -->
+  <g>
+    <rect x="30" y="78" width="560" height="84" rx="6.4" fill="rgba(196,123,43,0.09)" stroke="rgba(232,228,216,0.22)" />
+    <rect x="30" y="174" width="560" height="84" rx="6.4" fill="rgba(196,123,43,0.09)" stroke="rgba(232,228,216,0.22)" />
+    <rect x="30" y="270" width="560" height="84" rx="6.4" fill="rgba(240,236,224,0.018)" stroke="rgba(232,228,216,0.13)" />
+    <rect x="30" y="366" width="560" height="84" rx="6.4" fill="rgba(240,236,224,0.018)" stroke="rgba(232,228,216,0.13)" />
+    <rect x="30" y="462" width="560" height="84" rx="6.4" fill="rgba(240,236,224,0.018)" stroke="rgba(232,228,216,0.13)" />
+  </g>
+
+  <!-- Ownership dots: amber is the live channel, so it marks only where the reader writes. -->
+  <g fill="#c47b2b">
+    <circle cx="414" cy="106" r="4.5" />
+    <circle cx="414" cy="202" r="4.5" />
+  </g>
+
+  <!-- Mono voice: filenames and the footer, the machine's register. -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Courier New', monospace">
+    <text x="30" y="50" fill="#d4cec0" font-size="24">the five files</text>
+    <text x="590" y="50" fill="#bab2a1" font-size="20" text-anchor="end">one job each</text>
+    <text x="50" y="112" fill="#f0ece0" font-size="24">AGENTS.md</text>
+    <text x="50" y="208" fill="#f0ece0" font-size="24">MEMORY.md</text>
+    <text x="50" y="304" fill="#f0ece0" font-size="24">WORK.md</text>
+    <text x="50" y="400" fill="#f0ece0" font-size="24">DECISIONS.md</text>
+    <text x="50" y="496" fill="#f0ece0" font-size="24">OPEN.md</text>
+    <text x="30" y="604" fill="#bab2a1" font-size="20">read at session start &#183; git keeps the history</text>
+  </g>
+
+  <!-- Product voice: what each file owns, and who maintains it. -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <text x="50" y="144" fill="#d4cec0" font-size="22">Rules for agents</text>
+    <text x="50" y="240" fill="#d4cec0" font-size="22">The project as it stands</text>
+    <text x="50" y="336" fill="#d4cec0" font-size="22">Work in flight, and next</text>
+    <text x="50" y="432" fill="#d4cec0" font-size="22">What is settled, and why</text>
+    <text x="50" y="528" fill="#d4cec0" font-size="22">Questions still unanswered</text>
+    <text x="428" y="112" fill="#d4cec0" font-size="22">you</text>
+    <text x="428" y="208" fill="#d4cec0" font-size="22">you + agents</text>
+    <text x="428" y="304" fill="#d4cec0" font-size="22">agents</text>
+    <text x="428" y="400" fill="#d4cec0" font-size="22">agents</text>
+    <text x="428" y="496" fill="#d4cec0" font-size="22">agents</text>
+  </g>
+
+  <!-- Separator between the rows and the footer note. -->
+  <line x1="30" y1="574" x2="590" y2="574" stroke="rgba(232,228,216,0.13)" />
+</svg>
