@@ -1,10 +1,23 @@
-# Prefrontal Context
+<p align="center">
+  <img src="assets/logo-tile.svg" width="104" height="104" alt="">
+</p>
 
-**Project context that stays with the repository.**
+<h1 align="center">Prefrontal Context</h1>
 
-`v0.4.0` · 106 lines of markdown · no install · no account · no AI provider · MIT
+<p align="center"><strong>Project context that stays with the repository.</strong></p>
 
-Site: [prefrontal.dev](https://prefrontal.dev)
+<p align="center">
+  <code>v0.4.0</code>&nbsp; <code>106 lines</code>&nbsp; <code>5 files</code>&nbsp; <code>no install</code>&nbsp; <code>no account</code>&nbsp; <code>no AI provider</code>&nbsp; <code>MIT</code>
+</p>
+
+<p align="center">
+  <a href="https://prefrontal.dev">prefrontal.dev</a> &nbsp;·&nbsp;
+  <a href="PROMPT.md">setup prompt</a> &nbsp;·&nbsp;
+  <a href="#the-five-files">the five files</a> &nbsp;·&nbsp;
+  <a href="#install-by-hand">install by hand</a>
+</p>
+
+---
 
 Five markdown files in your repository carry the rules an agent has to follow, what the project is, what is in flight, what is settled, and what nobody has answered yet. Every session starts from the same record instead of from a chat that has scrolled away.
 
@@ -87,6 +100,8 @@ ask for it.
 
 The same prompt is served at [prefrontal.dev/setup.txt](https://prefrontal.dev/setup.txt) and kept in [`PROMPT.md`](PROMPT.md), for agents that can fetch a URL. If the three ever disagree, `PROMPT.md` is the one that counts.
 
+---
+
 ## Install by hand
 
 1. Copy `AGENTS.md`, `MEMORY.md`, `DECISIONS.md`, `WORK.md`, and `OPEN.md` into the repository root. If the repo already has an `AGENTS.md`, merge this template's harness sections into it instead of overwriting — keep your existing rules.
@@ -110,3 +125,7 @@ Delete the five files (and `CLAUDE.md` if it only points at `AGENTS.md`). Nothin
 ## License
 
 MIT. See `LICENSE`.
+
+---
+
+<p align="center"><sub>Prefrontal Context · <a href="LICENSE">MIT</a> · <a href="https://prefrontal.dev">prefrontal.dev</a> · <a href="https://prefrontal.dev/setup.txt">setup.txt</a></sub></p>

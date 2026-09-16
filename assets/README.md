@@ -4,10 +4,19 @@ Visuals for the repository README only. None of this is copied into a project th
 
 | File | What it is |
 | --- | --- |
-| `logo-mark.svg` | The Prefrontal Context mark |
+| `logo-tile.svg` | The app icon used at the top of the README: the mark on its own ground |
+| `logo-mark.svg` | The Prefrontal Context mark, on transparency |
 | `five-files.svg` | Figure A — the five files, one job each, and who maintains them |
 | `session-loop.svg` | Figure B — one session and the next, as a four-step loop |
 | `social-preview.png` | The GitHub social preview card (1200×630) |
+
+## `logo-tile.svg`
+
+The README's hero image, and the reason it is a separate file: `logo-mark.svg` is transparent with an off-white brain, which is invisible on GitHub's white column (about 1.06:1). The tile paints the mark's own ground — `#0a0908`, 22% corner radius — so one file reads on both themes, the same Never-Invisible-Ink reasoning the figures follow.
+
+It is copied from the site's favicon (`itsabk/prefrontal-dev` → `public/favicon.svg`, itself derived by that project's `scripts/build-mark.mjs`), and the geometry below its comment is byte-identical to it. The README renders it at 104px with `alt=""`, because the `<h1>` directly beneath it already names the project: the image is the mark, the name is live text, and the same rule holds on the site.
+
+`sha256 9a612468a41c23ce879e6c879948d502ba5e4f550e51dbe02dcbf7d1ccc7df6c`
 
 ## `logo-mark.svg`
 
